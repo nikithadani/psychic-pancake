@@ -1,0 +1,21 @@
+---
+title: "Untitled"
+author: "Nikita Thadani"
+date: "12/1/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+ggplot(iris) +
+  aes(x= Petal.Width)+
+  geom_histogram (color = "firebrick4", 
+                  fill = "darkgreen")
+```
+
+
+
